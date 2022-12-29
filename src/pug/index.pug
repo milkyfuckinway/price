@@ -1,6 +1,13 @@
-include layout/doctype
-body
-    include modules/header
-    h1 Main title
-    include modules/footer
-script(src='js/main.js' type='module')
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width,initial-scale=1")
+		link(href='css/style.min.css' rel='stylesheet')
+		title portfolio
+	body
+		include modules/header
+		include modules/main/main
+		include modules/footer
+		include modules/template
+	script(src='js/main.js' type='module')
