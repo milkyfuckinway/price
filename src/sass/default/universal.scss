@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a,
+b,
+blockquote,
+center,
+code,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+p,
+pre,
+span,
+table,
+td,
+th,
+tr,
+u,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  display: none;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  -webkit-touch-callout: none;
+  user-select: none;
+  white-space: nowrap;
+  width: 1px;
+}

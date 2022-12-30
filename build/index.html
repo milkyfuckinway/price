@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <link rel="stylesheet" href="css/style.min.css"/>
-    <title>ES6 build</title>
+    <link href="css/style.min.css" rel="stylesheet"/>
+    <title>price</title>
   </head>
+  <body>
+    <form class="select">
+      <h2 class="select__title">Выберите марку часов</h2>
+      <div class="select__selected"></div>
+      <label class="selected__label">Хронограф, или другое усложнение механизма
+        <input class="select__precious-metal" type="checkbox"/>
+      </label>
+      <label class="selected__label">Серебряный корпус
+        <input class="select__precious-metal" type="checkbox"/>
+      </label>
+      <label class="selected__label">Золотой корпус
+        <input class="select__precious-metal" type="checkbox"/>
+      </label>
+      <ul class="select__list"></ul>
+      <div class="select__result">Цена</div>
+      <input class="select__input"/>
+      <button class="select__submit" type="submit">Подтвердить</button>
+    </form>
+    <div class="template visually-hidden"></div>
+  </body>
+  <script src="js/main.js" type="module"></script>
 </html>
-<body>
-  <h1>Main title</h1>
-</body>
-<script src="js/main.js" type="module"></script>

@@ -1,8 +1,13 @@
-main.main-content
-	section.desktop
-		.desktop__wrapper.grid
-			include desktop-files
-		.desktop__footer
-			.desktop__start
-				svg(width='94' height='77')
-					use(href="img/sprite-multi.svg#windows-logo")
+form.select
+	h2.select__title Выберите марку часов
+	.select__selected
+	label.selected__label Хронограф, или другое усложнение механизма
+		input.select__precious-metal(type='checkbox') 
+	label.selected__label Серебряный корпус
+		input.select__precious-metal(type='checkbox') 
+	label.selected__label Золотой корпус
+		input.select__precious-metal(type='checkbox') 
+	ul.select__list
+	.select__result Цена
+	input.select__input
+	button.select__submit(type='submit') Подтвердить
