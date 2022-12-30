@@ -8,23 +8,23 @@
   </head>
   <body>
     <form class="select">
-      <h2 class="select__title">Выберите марку часов</h2>
-      <div class="select__selected"></div>
+      <div class="select__options">
+        <p class="select__selected">Выберите марку</p>
+        <ul class="select__list select__list--hidden"></ul>
+      </div>
       <div class="select__checkboxes">
         <label class="selected__label">Хронограф, или другое усложнение механизма
-          <input class="select__chronograph" type="checkbox"/>
+          <input class="select__chronograph" id="chronograph" type="checkbox"/>
         </label>
         <label class="selected__label">Серебряный корпус
-          <input class="select__argentum" type="checkbox"/>
+          <input class="select__silver" id="silver" type="checkbox"/>
         </label>
         <label class="selected__label">Золотой корпус
-          <input class="select__gold" type="checkbox"/>
+          <input class="select__gold" id="gold" type="checkbox"/>
         </label>
       </div>
-      <ul class="select__list"></ul>
       <div class="select__result">Цена</div>
-      <input class="select__input"/>
-      <button class="select__submit" type="submit">Подтвердить</button>
+      <input class="select__input visually-hidden"/>
     </form>
     <div class="template visually-hidden"></div>
   </body>

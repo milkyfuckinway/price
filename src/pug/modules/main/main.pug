@@ -1,14 +1,13 @@
 form.select
-	h2.select__title Выберите марку часов
-	.select__selected
+	.select__options
+		p.select__selected Выберите марку
+		ul.select__list.select__list--hidden
 	.select__checkboxes
 		label.selected__label Хронограф, или другое усложнение механизма
-			input.select__chronograph(type='checkbox') 
+			input.select__chronograph(id='chronograph' type='checkbox') 
 		label.selected__label Серебряный корпус
-			input.select__argentum(type='checkbox') 
+			input.select__silver(id='silver' type='checkbox') 
 		label.selected__label Золотой корпус
-			input.select__gold(type='checkbox') 
-	ul.select__list
+			input.select__gold(id='gold' type='checkbox') 
 	.select__result Цена
-	input.select__input
-	button.select__submit(type='submit') Подтвердить
+	input.select__input.visually-hidden

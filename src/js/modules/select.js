@@ -4,9 +4,10 @@ const selectResult = select.querySelector('.select__result');
 const selectList = select.querySelector('.select__list');
 const selectInput = select.querySelector('.select__input');
 const selectCheckboxes = select.querySelector('.select__checkboxes');
+const selectOptions = select.querySelector('.select__options');
 
 const chronograph = select.querySelector('.select__chronograph');
-const argentum = select.querySelector('.select__argentum');
+const argentum = select.querySelector('.select__silver');
 const gold = select.querySelector('.select__gold');
 
 const priceValues = {
@@ -18,6 +19,9 @@ const priceValues = {
 };
 
 const watchNames = {
+  adriatica: 'Adriatica',
+  anneklein: 'Anne Klein',
+  armaniexchange: 'Armani Exchange',
   sunlight: 'Sunlight',
   casio: 'Casio',
   tissot: 'Tissot',
@@ -26,6 +30,9 @@ const watchNames = {
 };
 
 const priceDefault = {
+  adriatica: priceValues.medium,
+  anneklein: priceValues.low,
+  armaniexchange: priceValues.medium,
   sunlight: priceValues.low,
   casio: priceValues.low,
   tissot: priceValues.high,
@@ -34,6 +41,9 @@ const priceDefault = {
 };
 
 const priceChronograph = {
+  adriatica: priceValues.high,
+  anneklein: priceValues.medium,
+  armaniexchange: priceValues.high,
   sunlight: priceValues.medium,
   casio: priceValues.medium,
   tissot: priceValues.highest,
@@ -41,19 +51,19 @@ const priceChronograph = {
   nika: priceValues.high,
 };
 
-const priceArgentum = {
+const priceSilver = {
   tissot: priceValues.priceless,
   edox: priceValues.priceless,
   nika: priceValues.high,
 };
 
 const priceGold = {
-  tissot: priceValues.high,
-  edox: priceValues.highest,
+  tissot: priceValues.priceless,
+  edox: priceValues.priceless,
   nika: priceValues.highest,
 };
 
-const argentumChronographPrice = {
+const silverChronographPrice = {
   tissot: priceValues.highest,
   edox: priceValues.highest,
   nika: priceValues.high,
@@ -61,7 +71,7 @@ const argentumChronographPrice = {
 
 const goldChronographPrice = {
   tissot: priceValues.highest,
-  edox: priceValues.highest,
+  edox: priceValues.priceless,
   nika: priceValues.highest,
 };
 
@@ -74,21 +84,19 @@ const canBePrecious = {
 const checkParameter = () => {
   if (!chronograph.checked && !argentum.checked && !gold.checked) {
     return priceDefault[selectInput.value];
-  }
-  if (chronograph.checked && !argentum.checked && !gold.checked) {
+  } else if (chronograph.checked && !argentum.checked && !gold.checked) {
     return priceChronograph[selectInput.value];
-  }
-  if (argentum.checked && !gold.checked && !chronograph.checked) {
-    return priceArgentum[selectInput.value];
-  }
-  if (gold.checked && !chronograph.checked && !argentum.checked) {
+  } else if (argentum.checked && !gold.checked && !chronograph.checked) {
+    return priceSilver[selectInput.value];
+  } else if (gold.checked && !chronograph.checked && !argentum.checked) {
     return priceGold[selectInput.value];
-  }
-  if (chronograph.checked && argentum.checked && !gold.checked) {
-    return argentumChronographPrice[selectInput.value];
-  }
-  if (chronograph.checked && gold.checked && !argentum.checked) {
+  } else if (chronograph.checked && argentum.checked && !gold.checked) {
+    return silverChronographPrice[selectInput.value];
+  } else if (chronograph.checked && gold.checked && !argentum.checked) {
     return goldChronographPrice[selectInput.value];
+  } else {
+    // eslint-disable-next-line no-alert
+    alert('error in checkParameter Function');
   }
 };
 
@@ -106,9 +114,11 @@ createWatchList();
 
 const allCheckboxes = selectCheckboxes.querySelectorAll('input[type=checkbox]');
 
-const setDisabled = () => {
+const initialState = () => {
+  selectInput.value = '';
   allCheckboxes.forEach((item) => {
     item.disabled = true;
+    item.checked = false;
   });
 };
 
@@ -118,10 +128,21 @@ const setEnabled = () => {
   });
 };
 
-setDisabled();
+initialState();
+
+const uncheck = () => {
+  allCheckboxes.forEach((item) => {
+    item.checked = false;
+  });
+};
 
 select.addEventListener('click', (evt) => {
+  if (evt.target.closest('.select__options')) {
+    selectList.classList.remove('select__list--hidden');
+  }
   if (evt.target.closest('.select__list')) {
+    selectList.classList.add('select__list--hidden');
+    uncheck();
     selectInput.value = evt.target.id;
     selectSelected.textContent = evt.target.textContent;
     if (selectInput.value) {
@@ -135,6 +156,7 @@ select.addEventListener('click', (evt) => {
       gold.disabled = true;
     }
   }
+
   if (evt.target.closest('.selected__label') && canBePrecious[selectInput.value]) {
     if (argentum.checked) {
       gold.disabled = true;
@@ -147,10 +169,6 @@ select.addEventListener('click', (evt) => {
       gold.disabled = false;
     }
   }
-});
-
-select.addEventListener('submit', (evt) => {
-  evt.preventDefault();
   if (priceDefault[selectInput.value]) {
     selectResult.textContent = checkParameter();
   }
