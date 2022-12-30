@@ -1,12 +1,13 @@
 form.select
 	h2.select__title Выберите марку часов
 	.select__selected
-	label.selected__label Хронограф, или другое усложнение механизма
-		input.select__precious-metal(type='checkbox') 
-	label.selected__label Серебряный корпус
-		input.select__precious-metal(type='checkbox') 
-	label.selected__label Золотой корпус
-		input.select__precious-metal(type='checkbox') 
+	.select__checkboxes
+		label.selected__label Хронограф, или другое усложнение механизма
+			input.select__chronograph(type='checkbox') 
+		label.selected__label Серебряный корпус
+			input.select__argentum(type='checkbox') 
+		label.selected__label Золотой корпус
+			input.select__gold(type='checkbox') 
 	ul.select__list
 	.select__result Цена
 	input.select__input

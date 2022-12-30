@@ -4,6 +4,8 @@
 }
 
 .select__item {
+  cursor: pointer;
+  user-select: none;
 }
 
 .select__result {
