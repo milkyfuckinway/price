@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="css/style.min.css" rel="stylesheet"/>
+    <title>price</title>
+  </head>
+  <body>
+    <form class="select">
+      <div class="select__options">
+        <p class="select__selected">Выберите марку</p>
+        <ul class="select__list select__list--hidden"></ul>
+      </div>
+      <div class="select__checkboxes">
+        <label class="selected__label">Хронограф, или другое усложнение механизма
+          <input class="select__chronograph" id="chronograph" type="checkbox"/>
+        </label>
+        <label class="selected__label">Серебряный корпус
+          <input class="select__silver" id="silver" type="checkbox"/>
+        </label>
+        <label class="selected__label">Золотой корпус
+          <input class="select__gold" id="gold" type="checkbox"/>
+        </label>
+      </div>
+      <div class="select__result">Цена</div>
+      <input class="select__input visually-hidden"/>
+    </form>
+    <div class="template visually-hidden"></div>
+  </body>
+  <script src="js/main.js" type="module"></script>
+</html>
