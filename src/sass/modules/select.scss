@@ -1,13 +1,22 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+}
+
 .select__options {
   align-items: center;
   border: 1px solid rgb(0 0 0 / 25%);
   cursor: pointer;
   display: flex;
   justify-content: center;
-  min-height: 30px;
+  min-height: 50px;
   position: relative;
   -webkit-tap-highlight-color: transparent;
-  width: 300px;
+  width: 100%;
 }
 
 .select__list {
@@ -16,16 +25,17 @@
   box-shadow: 0 0 5px rgb(0 0 0 / 50%);
   display: flex;
   flex-direction: column;
+  height: auto;
   list-style: none;
   margin: 0;
-  max-height: 100px;
+  max-height: 50vh;
   overflow: auto;
   padding: 0;
   position: absolute;
   scrollbar-width: none;
   top: calc(100% + 10px);
   transition: 0.3s;
-  width: 300px;
+  width: 100%;
   z-index: 10;
 
   &::-webkit-scrollbar {
@@ -44,7 +54,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  min-height: 30px;
+  min-height: 50px;
   user-select: none;
 
   &:not(:last-child) {
@@ -57,13 +67,18 @@
 }
 
 .select__result {
-  border: 1px solid #000000;
-  width: 300px;
+  border: 1px solid rgb(0 0 0 / 25%);
+  font-size: 20px;
+  line-height: 28px;
+  min-height: 30px;
+  text-align: center;
+  width: 100%;
 }
 
 .select__checkboxes {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .select__checkbox {
@@ -76,12 +91,14 @@
   align-items: center;
   display: inline-flex;
   gap: 20px;
+  min-height: 40px;
   user-select: none;
 
   &::before {
     border: 1px solid #000000;
-    border-radius: 4px;
+    border-radius: 5px;
     content: "";
+    flex-shrink: 0;
     height: 30px;
     width: 30px;
   }
@@ -91,7 +108,7 @@
   &::before {
     background:
       url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 347 234'%3E%3Cpath fill='%23020202' d='m306 1 41-1c-27 3-54 13-77 27-38 23-71 55-99 90-30 36-55 75-77 117-30-35-62-69-94-102l45-44 38 59A291 291 0 0 1 306 1Z'/%3E%3C/svg%3E")
-      center/contain no-repeat;
+      center/80% no-repeat;
   }
 }
 
