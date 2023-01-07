@@ -5,7 +5,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  min-height: 50px;
+  min-height: 30px;
   position: relative;
   -webkit-tap-highlight-color: transparent;
   width: 300px;
@@ -46,6 +46,14 @@
   justify-content: center;
   min-height: 30px;
   user-select: none;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #000000;
+  }
+}
+
+.select__item--selected {
+  background-color: #cccccc;
 }
 
 .select__result {
