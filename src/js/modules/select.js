@@ -8,9 +8,9 @@ const selectList = select.querySelector('.select__list');
 const selectInput = select.querySelector('.select__input');
 const selectCheckboxes = select.querySelector('.select__checkboxes');
 const allCheckboxes = selectCheckboxes.querySelectorAll('input[type=checkbox]');
-const chronograph = select.querySelector('.select__chronograph');
-const argentum = select.querySelector('.select__silver');
-const gold = select.querySelector('.select__gold');
+const chronograph = select.querySelector('.select__checkbox--chronograph');
+const argentum = select.querySelector('.select__checkbox--silver');
+const gold = select.querySelector('.select__checkbox--gold');
 
 const checkParameter = () => {
   if (!chronograph.checked && !argentum.checked && !gold.checked) {
@@ -87,6 +87,7 @@ selectCheckboxes.addEventListener('click', (evt) => {
 function onSelectMenuOpened(evt) {
   selectList.classList.add('select__list--hidden');
   if (evt.target.closest('.select__item')) {
+    uncheck();
     select.querySelectorAll('.select__item').forEach((item) => {
       item.classList.remove('select__item--selected');
     });
@@ -108,5 +109,4 @@ function onSelectMenuOpened(evt) {
   selectResult.textContent = checkParameter();
   selectList.classList.toggle('select__list--hidden');
   selectList.removeEventListener('click', onSelectMenuOpened);
-  uncheck();
 }

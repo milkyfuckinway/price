@@ -13,15 +13,12 @@
         <ul class="select__list select__list--hidden"></ul>
       </div>
       <div class="select__checkboxes">
-        <label class="selected__label">Хронограф, или другое усложнение механизма
-          <input class="select__chronograph" id="chronograph" type="checkbox"/>
-        </label>
-        <label class="selected__label">Серебряный корпус
-          <input class="select__silver" id="silver" type="checkbox"/>
-        </label>
-        <label class="selected__label">Золотой корпус
-          <input class="select__gold" id="gold" type="checkbox"/>
-        </label>
+        <input class="select__checkbox select__checkbox--chronograph" id="chronograph" name="chronograph" type="checkbox"/>
+        <label class="selected__label" for="chronograph">Хронограф, или другое усложнение механизма</label>
+        <input class="select__checkbox select__checkbox--silver" id="silver" name="silver" type="checkbox"/>
+        <label class="selected__label" for="silver">Серебряный корпус</label>
+        <input class="select__checkbox select__checkbox--gold" id="gold" name="gold" type="checkbox"/>
+        <label class="selected__label" for="gold">Золотой корпус</label>
       </div>
       <div class="select__result">Цена</div>
       <input class="select__input visually-hidden"/>

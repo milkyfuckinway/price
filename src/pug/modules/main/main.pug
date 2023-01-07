@@ -3,11 +3,11 @@ form.select
 		p.select__selected Выберите марку
 		ul.select__list.select__list--hidden
 	.select__checkboxes
-		label.selected__label Хронограф, или другое усложнение механизма
-			input.select__chronograph(id='chronograph' type='checkbox') 
-		label.selected__label Серебряный корпус
-			input.select__silver(id='silver' type='checkbox') 
-		label.selected__label Золотой корпус
-			input.select__gold(id='gold' type='checkbox') 
+		input.select__checkbox.select__checkbox--chronograph(id='chronograph' name='chronograph' type='checkbox') 
+		label.selected__label(for ='chronograph') Хронограф, или другое усложнение механизма
+		input.select__checkbox.select__checkbox--silver(id='silver' name='silver' type='checkbox') 
+		label.selected__label(for='silver') Серебряный корпус
+		input.select__checkbox.select__checkbox--gold(id='gold' name='gold' type='checkbox') 
+		label.selected__label(for='gold') Золотой корпус
 	.select__result Цена
 	input.select__input.visually-hidden
