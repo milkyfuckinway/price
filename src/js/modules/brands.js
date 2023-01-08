@@ -26,11 +26,147 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  armaniexchange: {
+    name: 'Armani Exchange',
+    key: 'armaniexchange',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  aviator: {
+    name: 'Aviator',
+    key: 'aviator',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  balmain: {
+    name: 'Balmain',
+    key: 'balmain',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  boccia: {
+    name: 'Boccia',
+    key: 'boccia',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  calvinklein: {
+    name: 'Calvin Klein',
+    key: 'calvinklein',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  candino: {
+    name: 'Candino',
+    key: 'candino',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
   casio: {
     name: 'Casio',
     key: 'casio',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  casioedifice: {
+    name: 'Casio Edifice',
+    key: 'casioedifice',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  casiogshock: {
+    name: 'Casio G-SHOCK',
+    key: 'casiogshock',
+    price: 'от 500 до 700 за каждую батарейку',
+    priceChronograph: 'от 700 до 900 за каждую батарейку',
+    canBePrecious: false,
+  },
+
+  certina: {
+    name: 'Certina',
+    key: 'certina',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  citizen: {
+    name: 'Citizen',
+    key: 'citizen',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  continental: {
+    name: 'Continental',
+    key: 'continental',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  cornavin: {
+    name: 'Cornavin',
+    key: 'cornavin',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  cuervoysobrinos: {
+    name: 'Cuervo y Sobrinos',
+    key: 'cuervoysobrinos',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
+  danielklein: {
+    name: 'Daniel Klein',
+    key: 'danielklein',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 500 до 700',
+    canBePrecious: false,
+  },
+
+  danielwellington: {
+    name: 'Daniel Wellington',
+    key: 'danielwellington',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  davosa: {
+    name: 'Davosa',
+    key: 'davosa',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  delbana: {
+    name: 'Delbana',
+    key: 'delbana',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
   },
 
