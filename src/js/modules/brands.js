@@ -419,6 +419,26 @@ const watchBrands = {
 
   // J
 
+  jacqueslemans: {
+    name: 'Jacques Lemans',
+    key: 'jacqueslemans',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  // K
+
+  // L
+
+  // Lacoste
+  // L Duchen
+  // Lee Cooper
+  // Locman
+  // Louis XVI
+  // Louis Erard
+  // Luminox
+
   nika: {
     name: 'Ника',
     key: 'nika',
