@@ -145,6 +145,14 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  claudebernard: {
+    name: 'Claude Bernard',
+    key: 'claudebernard',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   cornavin: {
     name: 'Cornavin',
     key: 'cornavin',
@@ -308,8 +316,8 @@ const watchBrands = {
   },
 
   frederiqueconstant: {
-    name: ' Frederique Constant',
-    key: ' frederiqueconstant',
+    name: 'Frederique Constant',
+    key: 'frederiqueconstant',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -431,13 +439,99 @@ const watchBrands = {
 
   // L
 
-  // Lacoste
-  // L Duchen
-  // Lee Cooper
-  // Locman
-  // Louis XVI
-  // Louis Erard
-  // Luminox
+  lacoste: {
+    name: 'Lacoste',
+    key: 'lacoste',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  lduchen: {
+    name: 'L Duchen',
+    key: 'lduchen',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  leecooper: {
+    name: 'Lee Cooper',
+    key: 'leecooper',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 500 до 700',
+    canBePrecious: false,
+  },
+
+  locman: {
+    name: 'Locman',
+    key: 'locman',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  longines: {
+    name: 'Longines',
+    key: 'longines',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1200 до 1500',
+    priceGold: 'от 1500 до 2000',
+    priceGoldChronogpaph: 'от 1500 до 2500',
+  },
+
+  louisxvi: {
+    name: 'Louis XVI',
+    key: 'louisxvi',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  louiserard: {
+    name: 'Louis Erard',
+    key: 'louiserard',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  luminox: {
+    name: 'Luminox',
+    key: 'luminox',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  // M
+  // massimo dutti
+  // Mathey-Tissot
+  // Maurice Lacroix
+  // Michael Kors
+  // mido
+  // Mondaine
+  // Montblanc
+  // Moschino
+  // movado
+  // MVMT
+
+  // N
+  // O
+  // P
+  // Q
+  // R
+  // S
+  // T
+  // U
+  // V
+  // W
+  // X
+  // Y
+  // Z
 
   nika: {
     name: 'Ника',

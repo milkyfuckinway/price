@@ -1,8 +1,7 @@
 import { watchBrands } from './brands.js';
 
 const select = document.querySelector('.select');
-const selectOptions = select.querySelector('.select__options');
-const selectSelected = select.querySelector('.select__selected');
+const selectButton = select.querySelector('.select__button');
 const selectResult = select.querySelector('.select__result');
 const selectList = select.querySelector('.select__list');
 const selectInput = select.querySelector('.select__input');
@@ -61,7 +60,7 @@ const uncheck = () => {
   });
 };
 
-selectOptions.addEventListener('click', () => {
+selectButton.addEventListener('click', () => {
   selectList.classList.toggle('select__list--hidden');
   selectList.addEventListener('click', onSelectMenuOpened);
 });
@@ -85,16 +84,14 @@ selectCheckboxes.addEventListener('click', (evt) => {
 });
 
 function onSelectMenuOpened(evt) {
-  selectList.classList.add('select__list--hidden');
   if (evt.target.closest('.select__item')) {
     uncheck();
     select.querySelectorAll('.select__item').forEach((item) => {
       item.classList.remove('select__item--selected');
     });
     evt.target.classList.add('select__item--selected');
-    selectList.classList.add('select__list--hidden');
     selectInput.value = evt.target.id;
-    selectSelected.textContent = evt.target.textContent;
+    selectButton.textContent = evt.target.textContent;
     if (selectInput.value) {
       setEnabled();
     }
