@@ -5,11 +5,11 @@ const selectButton = select.querySelector('.select__button');
 const selectResult = select.querySelector('.select__result');
 const selectList = select.querySelector('.select__list');
 const selectInput = select.querySelector('.select__input');
-const selectCheckboxes = select.querySelector('.select__checkboxes');
+const selectCheckboxes = select.querySelector('.select__options');
 const allCheckboxes = selectCheckboxes.querySelectorAll('input[type=checkbox]');
-const chronograph = select.querySelector('.select__checkbox--chronograph');
-const argentum = select.querySelector('.select__checkbox--silver');
-const gold = select.querySelector('.select__checkbox--gold');
+const chronograph = select.querySelector('#chronograph');
+const argentum = select.querySelector('#silver');
+const gold = select.querySelector('#gold');
 
 const checkParameter = () => {
   if (!chronograph.checked && !argentum.checked && !gold.checked) {
