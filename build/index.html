@@ -8,20 +8,22 @@
   </head>
   <body>
     <form class="select">
-      <div class="select__menu">
-        <button class="select__button" type="button">Выберите марку</button>
-        <ul class="select__list select__list--hidden"></ul>
-      </div>
-      <div class="select__options">
-        <input class="visually-hidden" id="chronograph" name="chronograph" type="checkbox"/>
-        <label class="selected__label" for="chronograph">Хронограф, или другое усложнение механизма</label>
-        <input class="visually-hidden" id="silver" name="silver" type="checkbox"/>
-        <label class="selected__label" for="silver">Серебряный корпус</label>
-        <input class="visually-hidden" id="gold" name="gold" type="checkbox"/>
-        <label class="selected__label" for="gold">Золотой корпус</label>
-      </div>
       <div class="select__result">Цена</div>
-      <input class="select__input visually-hidden"/>
+      <div class="select__wrapper">
+        <div class="select__options">
+          <input class="visually-hidden" id="chronograph" name="chronograph" type="checkbox"/>
+          <label class="selected__label" for="chronograph">Хронограф, или другое усложнение механизма</label>
+          <input class="visually-hidden" id="silver" name="silver" type="checkbox"/>
+          <label class="selected__label" for="silver">Серебряный корпус</label>
+          <input class="visually-hidden" id="gold" name="gold" type="checkbox"/>
+          <label class="selected__label" for="gold">Золотой корпус</label>
+        </div>
+        <div class="select__menu">
+          <button class="select__button" type="button">Выберите марку</button>
+          <ul class="select__list select__list--hidden"></ul>
+        </div>
+        <input class="select__input visually-hidden"/>
+      </div>
     </form>
     <div class="template visually-hidden"></div>
   </body>
