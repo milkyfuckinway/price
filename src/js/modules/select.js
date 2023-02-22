@@ -5,16 +5,18 @@ const selectButton = select.querySelector('.select__button');
 const selectResult = select.querySelector('.select__result');
 const selectList = select.querySelector('.select__list');
 const selectInput = select.querySelector('.select__input');
-const selectCheckboxes = select.querySelector('.select__options');
-const allCheckboxes = selectCheckboxes.querySelectorAll('input[type=checkbox]');
+const selectOptions = select.querySelector('.select__options');
+const allCheckboxes = selectOptions.querySelectorAll('input[type=checkbox]');
 const chronograph = select.querySelector('#chronograph');
 const argentum = select.querySelector('#silver');
 const gold = select.querySelector('#gold');
 
 const checkParameter = () => {
   if (!chronograph.checked && !argentum.checked && !gold.checked) {
+    console.log(chronograph.checked);
     return watchBrands[selectInput.value].price;
   } else if (chronograph.checked && !argentum.checked && !gold.checked) {
+    console.log(chronograph.checked);
     return watchBrands[selectInput.value].priceChronograph;
   } else if (argentum.checked && !gold.checked && !chronograph.checked) {
     return watchBrands[selectInput.value].priceSilver;
@@ -65,8 +67,8 @@ selectButton.addEventListener('click', () => {
   selectList.addEventListener('click', onSelectMenuOpened);
 });
 
-selectCheckboxes.addEventListener('click', (evt) => {
-  if (evt.target.closest('.select__checkboxes') && watchBrands[selectInput.value]) {
+selectOptions.addEventListener('click', (evt) => {
+  if (evt.target.closest('.select__options') && watchBrands[selectInput.value]) {
     selectResult.textContent = checkParameter();
     if (watchBrands[selectInput.value].canBePrecious) {
       if (argentum.checked) {
