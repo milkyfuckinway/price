@@ -801,7 +801,64 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  sokolov: {
+    name: 'SOKOLOV',
+    key: 'sokolov',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  sternglas: {
+    name: 'Sternglas',
+    key: 'sternglas',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  stuhrling: {
+    name: 'Stuhrling',
+    key: 'stuhrling',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  swarovski: {
+    name: 'Swarovski',
+    key: 'swarovski',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  swatch: {
+    name: 'Swatch',
+    key: 'swatch',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  swissmilitaryhanowa: {
+    name: 'Swiss Military Hanowa',
+    key: 'swissmilitaryhanowa',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // T
+
+  tagheuer: {
+    name: 'TAG Heuer',
+    key: 'tagheuer',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
   // U
   // V
   // W
