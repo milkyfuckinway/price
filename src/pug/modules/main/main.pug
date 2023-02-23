@@ -1,5 +1,6 @@
 form.select
-	.select__result Цена
+	label(for='price').select__result Цена
+	input(id='price').select__input.visually-hidden
 	.select__wrapper
 		.select__options
 			input.visually-hidden(id='chronograph' name='chronograph' type='checkbox') 
@@ -11,4 +12,3 @@ form.select
 		.select__menu
 			button(type='button').select__button Выберите марку
 			ul.select__list.select__list--hidden
-		input.select__input.visually-hidden

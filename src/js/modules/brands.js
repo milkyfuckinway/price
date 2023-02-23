@@ -508,23 +508,299 @@ const watchBrands = {
   },
 
   // M
-  // massimo dutti
-  // Mathey-Tissot
-  // Maurice Lacroix
-  // Michael Kors
-  // mido
-  // Mondaine
-  // Montblanc
-  // Moschino
-  // movado
-  // MVMT
+
+  massimodutti: {
+    name: 'Massimo Dutti',
+    key: 'massimodutti',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  matheytissot: {
+    name: 'Mathey-Tissot',
+    key: 'matheytissot',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  mauricelacroix: {
+    name: 'Maurice Lacroix',
+    key: 'mauricelacroix',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
+  michaelkors: {
+    name: 'Michael Kors',
+    key: 'michaelkors',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  mido: {
+    name: 'Mido',
+    key: 'mido',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  mondaine: {
+    name: 'Mondaine',
+    key: 'mondaine',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  montblanc: {
+    name: 'Montblanc',
+    key: 'montblanc',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
+  montega: {
+    name: 'Montega',
+    key: 'montega',
+    price: 'от 1200 до 1500',
+    priceChronograph: 'от 1500 до 2000',
+    canBePrecious: true,
+    priceSilver: 'от 2000 до 2500',
+    priceSilverChronograph: 'от 2500 до 3500',
+    priceGold: 'от 2500 до 3500',
+    priceGoldChronogpaph: 'от 3500 до 5000',
+  },
+
+  morellato: {
+    name: 'Morellato',
+    key: 'morellato',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  moschino: {
+    name: 'Moschino',
+    key: 'moschino',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  movado: {
+    name: 'Movado',
+    key: 'movado',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  mvmt: {
+    name: 'MVMT',
+    key: 'mvmt',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
 
   // N
+
+  nautica: {
+    name: 'Nautica',
+    key: 'nautica',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  ninaricci: {
+    name: 'Nina Ricci',
+    key: 'ninaricci',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // O
+
+  obaku: {
+    name: 'Obaku',
+    key: 'obaku',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  omega: {
+    name: 'Omega',
+    key: 'omega',
+    price: 'от 1200 до 1500',
+    priceChronograph: 'от 1500 до 2000',
+    canBePrecious: true,
+    priceSilver: 'от 1500 до 2500',
+    priceSilverChronograph: 'от 2500 до 3500',
+    priceGold: 'от 2500 до 3500',
+    priceGoldChronogpaph: 'от 3500 до 5000',
+  },
+
+  orient: {
+    name: 'Orient',
+    key: 'orient',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  oris: {
+    name: 'Oris',
+    key: 'oris',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
   // P
+
+  philippplein: {
+    name: 'Philipp Plein',
+    key: 'philippplein',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  piaget: {
+    name: 'Piaget',
+    key: 'piaget',
+    price: 'от 1200 до 1500',
+    priceChronograph: 'от 1500 до 2000',
+    canBePrecious: true,
+    priceSilver: 'от 2000 до 2500',
+    priceSilverChronograph: 'от 2500 до 3500',
+    priceGold: 'от 3500 до 5000',
+    priceGoldChronogpaph: 'от 3500 до 5000',
+  },
+
+  police: {
+    name: 'Police',
+    key: 'police',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  pryngeps: {
+    name: 'Pryngeps',
+    key: 'pryngeps',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  pulsar: {
+    name: 'Pulsar',
+    key: 'pulsar',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
   // Q
+
+  qq: {
+    name: 'Q&Q',
+    key: 'qq',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
   // R
+
+  rado: {
+    name: 'Rado',
+    key: 'rado',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  raymondweil: {
+    name: 'Raymond Weil',
+    key: 'raymondweil',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  roamer: {
+    name: 'Roamer',
+    key: 'roamer',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  rotary: {
+    name: 'Rotary',
+    key: 'rotary',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: true,
+    priceSilver: 'от 900 до 1200',
+    priceSilverChronograph: 'от 1200 до 1500',
+    priceGold: 'от 1200 до 1500',
+    priceGoldChronogpaph: 'от 1500 до 2000',
+  },
+
   // S
+
+  sector: {
+    name: 'Sector',
+    key: 'sector',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  seiko: {
+    name: 'Seiko',
+    key: 'seiko',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  sekonda: {
+    name: 'Sekonda',
+    key: 'sekonda',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  sergiotacchini: {
+    name: 'Sergio Tacchini',
+    key: 'sergiotacchini',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  skagen: {
+    name: 'Skagen',
+    key: 'skagen',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // T
   // U
   // V
