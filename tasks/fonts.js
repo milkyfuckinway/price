@@ -29,9 +29,15 @@ export default (done) => {
           items.forEach((item) => {
             const fileName = item.toLocaleLowerCase();
             const fontName = fileName.split('.')[0];
-            const fontStyle = fontName.split('-')[1];
+            let fontWeight = '';
+            if (fontName.includes('-')) {
+              fontWeight = fontName.split('-')[1];
+            } else {
+              fontWeight = fontName.split('_')[1];
+            }
             const fontExt = item.split('.')[1];
-            const styleToWeight = {
+            const fontStyle = 'normal';
+            const stringToWeight = {
               thin: '100',
               extralight: '200',
               light: '300',
@@ -41,11 +47,12 @@ export default (done) => {
               semibold: '600',
               bold: '700',
               extrabold: '800',
+              ultrabold: '800',
               black: '900',
               extrablack: '950',
             };
-            if (fontExt === 'woff' || fontExt === 'woff2') {
-              fs.appendFile(path.fonts.appendto, `@include font-face("${fontName}", "${item}", "${fontStyle}", "${styleToWeight[fontStyle]}", "${fontExt}");\n`);
+            if (fontExt === 'woff') {
+              fs.appendFile(path.fonts.appendto, `@include font-face("${fontName}", "${fontStyle}", "${stringToWeight[fontWeight]}");\n`);
             }
           });
         }

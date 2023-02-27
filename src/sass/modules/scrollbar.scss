@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  background-color: rgb(225 240 255);
+  border-radius: 0 5px 5px 0;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(140 197 255);
+  border: 2px solid rgb(225 240 255);
+  border-radius: 5px;
+}
+
+* {
+  scrollbar-color: rgb(140 197 255) rgb(225 240 255);
+  scrollbar-width: thin;
+}

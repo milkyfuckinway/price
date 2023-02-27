@@ -859,6 +859,22 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  technomarine: {
+    name: 'Technomarine',
+    key: 'technomarine',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  technos: {
+    name: 'Technos',
+    key: 'technos',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // U
   // V
   // W
