@@ -4,11 +4,14 @@ form.select
 	.select__wrapper
 		.select__options
 			input.visually-hidden(id='chronograph' name='chronograph' type='checkbox') 
-			label.selected__label(for ='chronograph') Хронограф, или другое усложнение механизма
+			label.selected__label(for ='chronograph')
+				span Хронограф, или другое усложнение механизма
 			input.visually-hidden(id='silver' name='silver' type='checkbox') 
-			label.selected__label(for='silver') Серебряный корпус
+			label.selected__label(for='silver')
+				span Серебряный корпус
 			input.visually-hidden(id='gold' name='gold' type='checkbox') 
-			label.selected__label(for='gold') Золотой корпус
+			label.selected__label(for='gold')
+				span Золотой корпус
 		.select__menu
 			button(type='button').select__button Выберите марку
 			ul.select__list.select__list--hidden
