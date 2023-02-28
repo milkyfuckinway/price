@@ -7,24 +7,28 @@
     <title>price</title>
   </head>
   <body>
-    <form class="select">
-      <label class="select__result" for="price">Цена</label>
-      <input class="select__input visually-hidden" id="price"/>
-      <div class="select__wrapper">
-        <div class="select__options">
-          <input class="visually-hidden" id="chronograph" name="chronograph" type="checkbox"/>
-          <label class="selected__label" for="chronograph"><span>Хронограф, или другое усложнение механизма</span></label>
-          <input class="visually-hidden" id="silver" name="silver" type="checkbox"/>
-          <label class="selected__label" for="silver"><span>Серебряный корпус</span></label>
-          <input class="visually-hidden" id="gold" name="gold" type="checkbox"/>
-          <label class="selected__label" for="gold"><span>Золотой корпус</span></label>
+    <header class="header"></header>
+    <main class="main">
+      <form class="select">
+        <label class="select__result" for="price">Цена</label>
+        <input class="select__input visually-hidden" id="price"/>
+        <div class="select__wrapper">
+          <div class="select__options">
+            <input class="visually-hidden" id="chronograph" name="chronograph" type="checkbox"/>
+            <label class="selected__label" for="chronograph"><span>Хронограф, или другое усложнение механизма</span></label>
+            <input class="visually-hidden" id="silver" name="silver" type="checkbox"/>
+            <label class="selected__label" for="silver"><span>Серебряный корпус</span></label>
+            <input class="visually-hidden" id="gold" name="gold" type="checkbox"/>
+            <label class="selected__label" for="gold"><span>Золотой корпус</span></label>
+          </div>
+          <div class="select__menu">
+            <button class="select__button" type="button">Выберите марку</button>
+            <ul class="select__list select__list--hidden"></ul>
+          </div>
         </div>
-        <div class="select__menu">
-          <button class="select__button" type="button">Выберите марку</button>
-          <ul class="select__list select__list--hidden"></ul>
-        </div>
-      </div>
-    </form>
+      </form>
+    </main>
+    <footer class="footer"></footer>
     <div class="template visually-hidden"></div>
   </body>
   <script src="js/main.js" type="module"></script>

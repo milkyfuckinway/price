@@ -11,6 +11,18 @@ const chronograph = select.querySelector('#chronograph');
 const argentum = select.querySelector('#silver');
 const gold = select.querySelector('#gold');
 
+const root = document.querySelector(':root');
+const main = document.querySelector('.main');
+
+function setListHeight() {
+  root.style.setProperty('--listheight', `${main.offsetHeight - 160}px`);
+}
+setListHeight();
+
+window.addEventListener('resize', () => {
+  setListHeight();
+});
+
 const checkParameter = () => {
   if (!chronograph.checked && !argentum.checked && !gold.checked) {
     console.log(chronograph.checked);
