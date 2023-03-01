@@ -15,8 +15,9 @@ const root = document.querySelector(':root');
 const main = document.querySelector('.main');
 
 function setListHeight() {
-  root.style.setProperty('--listheight', `${main.offsetHeight - 160}px`);
+  root.style.setProperty('--listheight', `${main.offsetHeight - 180}px`);
 }
+
 setListHeight();
 
 window.addEventListener('resize', () => {

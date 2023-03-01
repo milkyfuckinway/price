@@ -875,8 +875,174 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  tendence: {
+    name: 'Tendence',
+    key: 'tendence',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  tiffany: {
+    name: 'Tiffany & Co',
+    key: 'tiffany',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 1500 до 2000',
+    priceGoldChronogpaph: 'от 2000 до 3000',
+  },
+
+  timberland: {
+    name: 'Timberland',
+    key: 'timberland',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  timex: {
+    name: 'Timex',
+    key: 'timex',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  tissot: {
+    name: 'Tissot',
+    key: 'tissot',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: true,
+    priceSilver: 'от 900 до 1200',
+    priceSilverChronograph: 'от 1200 до 1500',
+    priceGold: 'от 1500 до 2000',
+    priceGoldChronogpaph: 'от 2000 до 3000',
+  },
+
+  tommyhilfiger: {
+    name: 'Tommy Hilfiger',
+    key: 'tommyhilfiger',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
+  toninolamborghini: {
+    name: 'Tonino Lamborghini',
+    key: 'toninolamborghini',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: false,
+  },
+
+  traser: {
+    name: 'Traser',
+    key: 'traser',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  tudor: {
+    name: 'Tudor',
+    key: 'tudor',
+    price: 'от 1200 до 1500',
+    priceChronograph: 'от 1500 до 2000',
+    canBePrecious: true,
+    priceSilver: 'от 1500 до 2000',
+    priceSilverChronograph: 'от 2000 до 2500',
+    priceGold: 'от 2000 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
+  },
+
+  twsteel: {
+    name: 'TW Steel',
+    key: 'twsteel',
+    price: 'от 500 до 700',
+    priceChronograph: 'от 700 до 900',
+    canBePrecious: false,
+  },
+
   // U
+
+  uboat: {
+    name: 'U-Boat',
+    key: 'uboat',
+    price: 'от 1200 до 1500',
+    priceChronograph: 'от 1500 до 2500',
+    canBePrecious: false,
+  },
+
+  universalgeneve: {
+    name: 'Universal Genève',
+    key: 'universalgeneve',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: true,
+    priceSilver: 'от 900 до 1200',
+    priceSilverChronograph: 'от 1200 до 1500',
+    priceGold: 'от 1500 до 2000',
+    priceGoldChronogpaph: 'от 2000 до 3500',
+  },
+
   // V
+
+  valentino: {
+    name: 'Valentino',
+    key: 'valentino',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  vancleefarpels: {
+    name: 'Van Cleef & Arpels',
+    key: 'vancleefarpels',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: true,
+    priceSilver: 'от 1500 до 2000',
+    priceSilverChronograph: 'от 2000 до 2500',
+    priceGold: 'от 2000 до 3500',
+    priceGoldChronogpaph: 'от 3500 до 5000',
+  },
+
+  vanderbauwede: {
+    name: 'Van Der Bauwede',
+    key: 'vanderbauwede',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 2000 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
+  },
+
+  versace: {
+    name: 'Versace',
+    key: 'versace',
+    price: 'от 900 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: true,
+    priceSilver: 'от 1500 до 2000',
+    priceSilverChronograph: 'от 2000 до 2500',
+    priceGold: 'от 2000 до 3500',
+    priceGoldChronogpaph: 'от 3500 до 5000',
+  },
+
+  viceroy: {
+    name: 'Viceroy',
+    key: 'viceroy',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // W
   // X
   // Y
@@ -886,12 +1052,12 @@ const watchBrands = {
     name: 'Ника',
     key: 'nika',
     price: 'от 700 до 900',
-    priceChronograph: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
-    priceSilver: 'от 700 до 900',
-    priceSilverChronograph: 'от 700 до 900',
-    priceGold: 'от 900 до 1200',
-    priceGoldChronogpaph: 'от 900 до 1500',
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 1500 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
   },
 };
 
