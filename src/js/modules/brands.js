@@ -687,6 +687,18 @@ const watchBrands = {
     priceGoldChronogpaph: 'от 3500 до 5000',
   },
 
+  platinor: {
+    name: 'Platinor',
+    key: 'platinor',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 1500 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
+  },
+
   police: {
     name: 'Police',
     key: 'police',
@@ -1043,14 +1055,128 @@ const watchBrands = {
     canBePrecious: false,
   },
 
+  victorinox: {
+    name: 'Victorinox',
+    key: 'victorinox',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  viviennewestwood: {
+    name: 'Vivienne Westwood',
+    key: 'viviennewestwood',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // W
+  wainer: {
+    name: 'Wainer',
+    key: 'wainer',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  welder: {
+    name: 'Welder',
+    key: 'welder',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  wenger: {
+    name: 'Wenger',
+    key: 'wenger',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  wylervetta: {
+    name: 'Wyler Vetta',
+    key: 'wylervetta',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // X
+
+  xemex: {
+    name: 'Xemex',
+    key: 'xemex',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // Y
+
+  yema: {
+    name: 'Yema',
+    key: 'yema',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
   // Z
+
+  zenith: {
+    name: 'Zenith',
+    key: 'zenith',
+    price: 'от 900 до 1200',
+    priceChronograph: 'от 1200 до 1500',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 1500 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
+  },
+
+  zenowatchbasel: {
+    name: 'Zeno-Watch Basel',
+    key: 'zenowatchbasel',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  zeppelin: {
+    name: 'Zeppelin',
+    key: 'zeppelin',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
+
+  zodiac: {
+    name: 'Zodiac',
+    key: 'zodiac',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: false,
+  },
 
   nika: {
     name: 'Ника',
     key: 'nika',
+    price: 'от 700 до 900',
+    priceChronograph: 'от 900 до 1200',
+    canBePrecious: true,
+    priceSilver: 'от 1200 до 1500',
+    priceSilverChronograph: 'от 1500 до 2000',
+    priceGold: 'от 1500 до 2500',
+    priceGoldChronogpaph: 'от 2500 до 3500',
+  },
+
+  mactime: {
+    name: 'Мак Тайм',
+    key: 'mactime',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
