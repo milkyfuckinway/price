@@ -3,7 +3,6 @@ const watchBrands = {
 
   adriatica: {
     name: 'Adriatica',
-    key: 'adriatica',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -11,7 +10,6 @@ const watchBrands = {
 
   anneklein: {
     name: 'Anne Klein',
-    key: 'anneklein',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -19,7 +17,6 @@ const watchBrands = {
 
   armaniexchange: {
     name: 'Armani Exchange',
-    key: 'armaniexchange',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -27,7 +24,6 @@ const watchBrands = {
 
   aviator: {
     name: 'Aviator',
-    key: 'aviator',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -37,7 +33,6 @@ const watchBrands = {
 
   balmain: {
     name: 'Balmain',
-    key: 'balmain',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -45,7 +40,6 @@ const watchBrands = {
 
   boccia: {
     name: 'Boccia',
-    key: 'boccia',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -53,7 +47,6 @@ const watchBrands = {
 
   bulova: {
     name: 'Bulova',
-    key: 'bulova',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -63,7 +56,6 @@ const watchBrands = {
 
   calvinklein: {
     name: 'Calvin Klein',
-    key: 'calvinklein',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -71,7 +63,6 @@ const watchBrands = {
 
   candino: {
     name: 'Candino',
-    key: 'candino',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -79,7 +70,6 @@ const watchBrands = {
 
   casio: {
     name: 'Casio',
-    key: 'casio',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -87,7 +77,6 @@ const watchBrands = {
 
   casioedifice: {
     name: 'Casio Edifice',
-    key: 'casioedifice',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -95,7 +84,6 @@ const watchBrands = {
 
   casiogshock: {
     name: 'Casio G-SHOCK',
-    key: 'casiogshock',
     price: 'от 500 до 700 за каждую батарейку',
     priceChronograph: 'от 700 до 900 за каждую батарейку',
     canBePrecious: false,
@@ -103,7 +91,6 @@ const watchBrands = {
 
   certina: {
     name: 'Certina',
-    key: 'certina',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -111,7 +98,6 @@ const watchBrands = {
 
   cerruti: {
     name: 'Cerruti 1881',
-    key: 'cerruti',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -119,7 +105,6 @@ const watchBrands = {
 
   chopard: {
     name: 'Сhopard',
-    key: 'chopard',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2000',
     canBePrecious: true,
@@ -131,7 +116,6 @@ const watchBrands = {
 
   citizen: {
     name: 'Citizen',
-    key: 'citizen',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -139,7 +123,6 @@ const watchBrands = {
 
   continental: {
     name: 'Continental',
-    key: 'continental',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -147,7 +130,6 @@ const watchBrands = {
 
   claudebernard: {
     name: 'Claude Bernard',
-    key: 'claudebernard',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -155,7 +137,6 @@ const watchBrands = {
 
   cornavin: {
     name: 'Cornavin',
-    key: 'cornavin',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -163,7 +144,6 @@ const watchBrands = {
 
   cuervoysobrinos: {
     name: 'Cuervo y Sobrinos',
-    key: 'cuervoysobrinos',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -173,7 +153,6 @@ const watchBrands = {
 
   danielklein: {
     name: 'Daniel Klein',
-    key: 'danielklein',
     price: 'от 500 до 700',
     priceChronograph: 'от 500 до 700',
     canBePrecious: false,
@@ -181,7 +160,6 @@ const watchBrands = {
 
   danielwellington: {
     name: 'Daniel Wellington',
-    key: 'danielwellington',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -189,7 +167,6 @@ const watchBrands = {
 
   davosa: {
     name: 'Davosa',
-    key: 'davosa',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -197,7 +174,6 @@ const watchBrands = {
 
   delbana: {
     name: 'Delbana',
-    key: 'delbana',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -205,7 +181,6 @@ const watchBrands = {
 
   delma: {
     name: 'Delma',
-    key: 'delma',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -213,7 +188,6 @@ const watchBrands = {
 
   disel: {
     name: 'Disel',
-    key: 'disel',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900 + от 500 до 700 за каждую дополнительную батарейку',
     canBePrecious: false,
@@ -221,7 +195,6 @@ const watchBrands = {
 
   dkny: {
     name: 'DKNY',
-    key: 'dkny',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -229,7 +202,6 @@ const watchBrands = {
 
   doodle: {
     name: 'Doodle',
-    key: 'doodle',
     price: 'от 500 до 700',
     priceChronograph: 'от 500 до 700',
     canBePrecious: false,
@@ -237,7 +209,6 @@ const watchBrands = {
 
   ducati: {
     name: 'Ducati',
-    key: 'ducati',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -247,7 +218,6 @@ const watchBrands = {
 
   elysee: {
     name: 'Elysee',
-    key: 'elysee',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -255,7 +225,6 @@ const watchBrands = {
 
   edox: {
     name: 'Edox',
-    key: 'edox',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -267,7 +236,6 @@ const watchBrands = {
 
   emporioarmani: {
     name: 'Emporio Armani',
-    key: 'emporioarmani',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -275,7 +243,6 @@ const watchBrands = {
 
   epos: {
     name: 'Epos',
-    key: 'epos',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -283,7 +250,6 @@ const watchBrands = {
 
   eterna: {
     name: 'Eterna',
-    key: 'eterna',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -293,7 +259,6 @@ const watchBrands = {
 
   festina: {
     name: 'Festina',
-    key: 'festina',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -301,7 +266,6 @@ const watchBrands = {
 
   fendi: {
     name: 'Fendi',
-    key: 'fendi',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -309,7 +273,6 @@ const watchBrands = {
 
   fossil: {
     name: 'Fossil',
-    key: 'fossil',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -317,7 +280,6 @@ const watchBrands = {
 
   frederiqueconstant: {
     name: 'Frederique Constant',
-    key: 'frederiqueconstant',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -325,7 +287,6 @@ const watchBrands = {
 
   freelook: {
     name: 'Freelook',
-    key: 'freelook',
     price: 'от 500 до 700',
     priceChronograph: 'от 500 до 700',
     canBePrecious: false,
@@ -335,7 +296,6 @@ const watchBrands = {
 
   gc: {
     name: 'Gc',
-    key: 'gc',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -343,7 +303,6 @@ const watchBrands = {
 
   glycine: {
     name: 'Glycine',
-    key: 'glycine',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -351,7 +310,6 @@ const watchBrands = {
 
   grovana: {
     name: 'Grovana',
-    key: 'grovana',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -359,7 +317,6 @@ const watchBrands = {
 
   gucci: {
     name: 'Gucci',
-    key: 'gucci',
     price: 'от 1200 до 2500',
     priceChronograph: 'от 1500 до 3000',
     canBePrecious: false,
@@ -367,7 +324,6 @@ const watchBrands = {
 
   guess: {
     name: 'Guess',
-    key: 'guess',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -377,7 +333,6 @@ const watchBrands = {
 
   hamilton: {
     name: 'Hamilton',
-    key: 'hamilton',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -385,7 +340,6 @@ const watchBrands = {
 
   hanowa: {
     name: 'Hanowa',
-    key: 'hanowa',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -393,7 +347,6 @@ const watchBrands = {
 
   hermes: {
     name: 'Hermes',
-    key: 'hermes',
     price: 'от 1500 до 2000',
     priceChronograph: 'от 2000 до 3500',
     canBePrecious: false,
@@ -401,7 +354,6 @@ const watchBrands = {
 
   hugo: {
     name: 'Hugo',
-    key: 'hugo',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -409,7 +361,6 @@ const watchBrands = {
 
   hugoboss: {
     name: 'Hugo Boss',
-    key: 'hugoboss',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -419,7 +370,6 @@ const watchBrands = {
 
   invicta: {
     name: 'Invicta',
-    key: 'invicta',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -429,7 +379,6 @@ const watchBrands = {
 
   jacqueslemans: {
     name: 'Jacques Lemans',
-    key: 'jacqueslemans',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -441,7 +390,6 @@ const watchBrands = {
 
   lacoste: {
     name: 'Lacoste',
-    key: 'lacoste',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -449,7 +397,6 @@ const watchBrands = {
 
   lduchen: {
     name: 'L Duchen',
-    key: 'lduchen',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -457,7 +404,6 @@ const watchBrands = {
 
   leecooper: {
     name: 'Lee Cooper',
-    key: 'leecooper',
     price: 'от 500 до 700',
     priceChronograph: 'от 500 до 700',
     canBePrecious: false,
@@ -465,7 +411,6 @@ const watchBrands = {
 
   locman: {
     name: 'Locman',
-    key: 'locman',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -473,7 +418,6 @@ const watchBrands = {
 
   longines: {
     name: 'Longines',
-    key: 'longines',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: true,
@@ -485,7 +429,6 @@ const watchBrands = {
 
   louisxvi: {
     name: 'Louis XVI',
-    key: 'louisxvi',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -493,7 +436,6 @@ const watchBrands = {
 
   louiserard: {
     name: 'Louis Erard',
-    key: 'louiserard',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -501,7 +443,6 @@ const watchBrands = {
 
   luminox: {
     name: 'Luminox',
-    key: 'luminox',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -511,7 +452,6 @@ const watchBrands = {
 
   massimodutti: {
     name: 'Massimo Dutti',
-    key: 'massimodutti',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -519,7 +459,6 @@ const watchBrands = {
 
   matheytissot: {
     name: 'Mathey-Tissot',
-    key: 'matheytissot',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -527,7 +466,6 @@ const watchBrands = {
 
   mauricelacroix: {
     name: 'Maurice Lacroix',
-    key: 'mauricelacroix',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -535,7 +473,6 @@ const watchBrands = {
 
   michaelkors: {
     name: 'Michael Kors',
-    key: 'michaelkors',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -543,7 +480,6 @@ const watchBrands = {
 
   mido: {
     name: 'Mido',
-    key: 'mido',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -551,7 +487,6 @@ const watchBrands = {
 
   mondaine: {
     name: 'Mondaine',
-    key: 'mondaine',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -559,7 +494,6 @@ const watchBrands = {
 
   montblanc: {
     name: 'Montblanc',
-    key: 'montblanc',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -567,7 +501,6 @@ const watchBrands = {
 
   montega: {
     name: 'Montega',
-    key: 'montega',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2000',
     canBePrecious: true,
@@ -579,7 +512,6 @@ const watchBrands = {
 
   morellato: {
     name: 'Morellato',
-    key: 'morellato',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -587,7 +519,6 @@ const watchBrands = {
 
   moschino: {
     name: 'Moschino',
-    key: 'moschino',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -595,7 +526,6 @@ const watchBrands = {
 
   movado: {
     name: 'Movado',
-    key: 'movado',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -603,7 +533,6 @@ const watchBrands = {
 
   mvmt: {
     name: 'MVMT',
-    key: 'mvmt',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -613,7 +542,6 @@ const watchBrands = {
 
   nautica: {
     name: 'Nautica',
-    key: 'nautica',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -621,7 +549,6 @@ const watchBrands = {
 
   ninaricci: {
     name: 'Nina Ricci',
-    key: 'ninaricci',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -631,7 +558,6 @@ const watchBrands = {
 
   obaku: {
     name: 'Obaku',
-    key: 'obaku',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -639,7 +565,6 @@ const watchBrands = {
 
   omega: {
     name: 'Omega',
-    key: 'omega',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2000',
     canBePrecious: true,
@@ -651,7 +576,6 @@ const watchBrands = {
 
   orient: {
     name: 'Orient',
-    key: 'orient',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -659,7 +583,6 @@ const watchBrands = {
 
   oris: {
     name: 'Oris',
-    key: 'oris',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -669,7 +592,6 @@ const watchBrands = {
 
   philippplein: {
     name: 'Philipp Plein',
-    key: 'philippplein',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -677,7 +599,6 @@ const watchBrands = {
 
   piaget: {
     name: 'Piaget',
-    key: 'piaget',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2000',
     canBePrecious: true,
@@ -689,7 +610,6 @@ const watchBrands = {
 
   platinor: {
     name: 'Platinor',
-    key: 'platinor',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -701,7 +621,6 @@ const watchBrands = {
 
   police: {
     name: 'Police',
-    key: 'police',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -709,7 +628,6 @@ const watchBrands = {
 
   pryngeps: {
     name: 'Pryngeps',
-    key: 'pryngeps',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -717,7 +635,6 @@ const watchBrands = {
 
   pulsar: {
     name: 'Pulsar',
-    key: 'pulsar',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -727,7 +644,6 @@ const watchBrands = {
 
   qq: {
     name: 'Q&Q',
-    key: 'qq',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -737,7 +653,6 @@ const watchBrands = {
 
   rado: {
     name: 'Rado',
-    key: 'rado',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -745,7 +660,6 @@ const watchBrands = {
 
   raymondweil: {
     name: 'Raymond Weil',
-    key: 'raymondweil',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -753,7 +667,6 @@ const watchBrands = {
 
   roamer: {
     name: 'Roamer',
-    key: 'roamer',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -761,7 +674,6 @@ const watchBrands = {
 
   rotary: {
     name: 'Rotary',
-    key: 'rotary',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: true,
@@ -775,7 +687,6 @@ const watchBrands = {
 
   sector: {
     name: 'Sector',
-    key: 'sector',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -783,7 +694,6 @@ const watchBrands = {
 
   seiko: {
     name: 'Seiko',
-    key: 'seiko',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -791,7 +701,6 @@ const watchBrands = {
 
   sekonda: {
     name: 'Sekonda',
-    key: 'sekonda',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -799,7 +708,6 @@ const watchBrands = {
 
   sergiotacchini: {
     name: 'Sergio Tacchini',
-    key: 'sergiotacchini',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -807,7 +715,6 @@ const watchBrands = {
 
   skagen: {
     name: 'Skagen',
-    key: 'skagen',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -815,7 +722,6 @@ const watchBrands = {
 
   sokolov: {
     name: 'SOKOLOV',
-    key: 'sokolov',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -823,7 +729,6 @@ const watchBrands = {
 
   sternglas: {
     name: 'Sternglas',
-    key: 'sternglas',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -831,7 +736,6 @@ const watchBrands = {
 
   stuhrling: {
     name: 'Stuhrling',
-    key: 'stuhrling',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -839,7 +743,6 @@ const watchBrands = {
 
   swarovski: {
     name: 'Swarovski',
-    key: 'swarovski',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -847,7 +750,6 @@ const watchBrands = {
 
   swatch: {
     name: 'Swatch',
-    key: 'swatch',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -855,7 +757,6 @@ const watchBrands = {
 
   swissmilitaryhanowa: {
     name: 'Swiss Military Hanowa',
-    key: 'swissmilitaryhanowa',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -865,7 +766,6 @@ const watchBrands = {
 
   tagheuer: {
     name: 'TAG Heuer',
-    key: 'tagheuer',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -873,7 +773,6 @@ const watchBrands = {
 
   technomarine: {
     name: 'Technomarine',
-    key: 'technomarine',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -881,7 +780,6 @@ const watchBrands = {
 
   technos: {
     name: 'Technos',
-    key: 'technos',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -889,7 +787,6 @@ const watchBrands = {
 
   tendence: {
     name: 'Tendence',
-    key: 'tendence',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -897,7 +794,6 @@ const watchBrands = {
 
   tiffany: {
     name: 'Tiffany & Co',
-    key: 'tiffany',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: true,
@@ -909,7 +805,6 @@ const watchBrands = {
 
   timberland: {
     name: 'Timberland',
-    key: 'timberland',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -917,7 +812,6 @@ const watchBrands = {
 
   timex: {
     name: 'Timex',
-    key: 'timex',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -925,7 +819,6 @@ const watchBrands = {
 
   tissot: {
     name: 'Tissot',
-    key: 'tissot',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -937,7 +830,6 @@ const watchBrands = {
 
   tommyhilfiger: {
     name: 'Tommy Hilfiger',
-    key: 'tommyhilfiger',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -945,7 +837,6 @@ const watchBrands = {
 
   toninolamborghini: {
     name: 'Tonino Lamborghini',
-    key: 'toninolamborghini',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: false,
@@ -953,7 +844,6 @@ const watchBrands = {
 
   traser: {
     name: 'Traser',
-    key: 'traser',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -961,7 +851,6 @@ const watchBrands = {
 
   tudor: {
     name: 'Tudor',
-    key: 'tudor',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2000',
     canBePrecious: true,
@@ -973,7 +862,6 @@ const watchBrands = {
 
   twsteel: {
     name: 'TW Steel',
-    key: 'twsteel',
     price: 'от 500 до 700',
     priceChronograph: 'от 700 до 900',
     canBePrecious: false,
@@ -983,7 +871,6 @@ const watchBrands = {
 
   uboat: {
     name: 'U-Boat',
-    key: 'uboat',
     price: 'от 1200 до 1500',
     priceChronograph: 'от 1500 до 2500',
     canBePrecious: false,
@@ -991,7 +878,6 @@ const watchBrands = {
 
   universalgeneve: {
     name: 'Universal Genève',
-    key: 'universalgeneve',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -1005,7 +891,6 @@ const watchBrands = {
 
   valentino: {
     name: 'Valentino',
-    key: 'valentino',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1013,7 +898,6 @@ const watchBrands = {
 
   vancleefarpels: {
     name: 'Van Cleef & Arpels',
-    key: 'vancleefarpels',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: true,
@@ -1025,7 +909,6 @@ const watchBrands = {
 
   vanderbauwede: {
     name: 'Van Der Bauwede',
-    key: 'vanderbauwede',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: true,
@@ -1037,7 +920,6 @@ const watchBrands = {
 
   versace: {
     name: 'Versace',
-    key: 'versace',
     price: 'от 900 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -1049,7 +931,6 @@ const watchBrands = {
 
   viceroy: {
     name: 'Viceroy',
-    key: 'viceroy',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1057,7 +938,6 @@ const watchBrands = {
 
   victorinox: {
     name: 'Victorinox',
-    key: 'victorinox',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1065,7 +945,6 @@ const watchBrands = {
 
   viviennewestwood: {
     name: 'Vivienne Westwood',
-    key: 'viviennewestwood',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1074,7 +953,6 @@ const watchBrands = {
   // W
   wainer: {
     name: 'Wainer',
-    key: 'wainer',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1082,7 +960,6 @@ const watchBrands = {
 
   welder: {
     name: 'Welder',
-    key: 'welder',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1090,7 +967,6 @@ const watchBrands = {
 
   wenger: {
     name: 'Wenger',
-    key: 'wenger',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1098,7 +974,6 @@ const watchBrands = {
 
   wylervetta: {
     name: 'Wyler Vetta',
-    key: 'wylervetta',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1108,7 +983,6 @@ const watchBrands = {
 
   xemex: {
     name: 'Xemex',
-    key: 'xemex',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1118,7 +992,6 @@ const watchBrands = {
 
   yema: {
     name: 'Yema',
-    key: 'yema',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1128,7 +1001,6 @@ const watchBrands = {
 
   zenith: {
     name: 'Zenith',
-    key: 'zenith',
     price: 'от 900 до 1200',
     priceChronograph: 'от 1200 до 1500',
     canBePrecious: true,
@@ -1140,7 +1012,6 @@ const watchBrands = {
 
   zenowatchbasel: {
     name: 'Zeno-Watch Basel',
-    key: 'zenowatchbasel',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1148,7 +1019,6 @@ const watchBrands = {
 
   zeppelin: {
     name: 'Zeppelin',
-    key: 'zeppelin',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1156,7 +1026,6 @@ const watchBrands = {
 
   zodiac: {
     name: 'Zodiac',
-    key: 'zodiac',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: false,
@@ -1164,7 +1033,6 @@ const watchBrands = {
 
   nika: {
     name: 'Ника',
-    key: 'nika',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -1176,7 +1044,6 @@ const watchBrands = {
 
   mactime: {
     name: 'Мак Тайм',
-    key: 'mactime',
     price: 'от 700 до 900',
     priceChronograph: 'от 900 до 1200',
     canBePrecious: true,
@@ -1187,4 +1054,4 @@ const watchBrands = {
   },
 };
 
-export { watchBrands };
+export {watchBrands};

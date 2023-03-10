@@ -1,4 +1,4 @@
-import { watchBrands } from './brands.js';
+import {watchBrands} from './brands.js';
 
 const select = document.querySelector('.select');
 const selectButton = select.querySelector('.select__button');
@@ -46,13 +46,13 @@ const checkParameter = () => {
 };
 
 (function createWatchList() {
-  for (let i = 0; i < Object.keys(watchBrands).length; i++) {
+  Object.entries(watchBrands).forEach((item) => {
     const listItem = document.createElement('li');
     listItem.classList.add('select__item');
-    listItem.setAttribute('id', Object.values(watchBrands)[i].key);
-    listItem.textContent = Object.values(watchBrands)[i].name;
+    listItem.setAttribute('id', item[0]);
+    listItem.textContent = item[1].name;
     selectList.appendChild(listItem);
-  }
+  });
 })();
 
 (function initialState() {
